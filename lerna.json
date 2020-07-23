@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.json",
+        "*.txt",
+        "test/**",
+        "example/**",
+        "package.json"
+      ]
+    },
+    "bootstrap": {
+      "npmClient": "npm"
+    }
+  },
+  "npmClient": "npm",
+  "version": "0.0.3"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@noderun/xbrowser",
+  "version": "0.0.3",
+  "description": "@noderun/xbrowser",
+  "main": "index.js",
+  "module": "dist/xbrowser.esm.js",
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "buildOptions": {
+    "name": "xbrowser",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd",
+      "esm-browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1549469775/noderun.git"
+  },
+  "keywords": [
+    "noderun"
+  ],
+  "author": "1549469775",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1549469775/noderun/issues"
+  }
+}
