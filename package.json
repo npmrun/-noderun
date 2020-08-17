@@ -8,15 +8,7 @@
     "build": "node scripts/build.js",
     "bootstrap": "node scripts/bootstrap.js",
     "test": "jest -c ./jest.config.js",
-    "release": "lerna publish",
-    "git:commit": "git add .&&git cz",
-    "git:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git cz",
-    "git:alpha": "standard-version --prerelease alpha -m 'alpha内测版本'",
-    "git:beta": "standard-version --prerelease beta -m 'beta公测版本'",
-    "git:release": "standard-version --release-as minor --tag-prefix 'stable-' -m 'stable稳定版本'"
-  },
-  "husky": {
-    "hooks": {}
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
