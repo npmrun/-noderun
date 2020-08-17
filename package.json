@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev:client": "cd example && cd 02 && ts-node -r tsconfig-paths/register index.ts",
-    "dev": "node scripts/dev.js style",
+    "dev:co-cli": "node scripts/dev.js co-cli",
+    "dev:fullpage": "node scripts/dev.js fullpage",
     "build": "node scripts/build.js",
     "bootstrap": "node scripts/bootstrap.js",
     "test": "jest -c ./jest.config.js",
@@ -16,7 +17,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "ls-lint",
       "commit-msg": "node ./scripts/gitVerify.js $HUSKY_GIT_PARAMS"
     }
   },

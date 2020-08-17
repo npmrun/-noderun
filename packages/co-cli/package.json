@@ -1,0 +1,33 @@
+{
+  "name": "@noderun/co-cli",
+  "version": "0.0.3",
+  "description": "@noderun/co-cli",
+  "main": "index.js",
+  "bin": {
+    "cok": "./dist/co-cli.cjs.js"
+  },
+  "buildOptions": {
+    "formats": [
+      "cjs"
+    ]
+  },
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1549469775/noderun.git"
+  },
+  "keywords": [
+    "noderun"
+  ],
+  "author": "1549469775",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1549469775/noderun/issues"
+  },
+  "dependencies": {
+    "commander": "^6.0.0"
+  }
+}

@@ -17,7 +17,7 @@ execa(
     [
         '-wc',
         '--environment',
-        `TARGET:${target},FORMATS:umd`
+        `TARGET:${target}` //,FORMATS:cjs
     ],
     {
         stdio: 'inherit'
