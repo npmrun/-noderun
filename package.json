@@ -16,9 +16,7 @@
     "git:release": "standard-version --release-as minor --tag-prefix 'stable-' -m 'stable稳定版本'"
   },
   "husky": {
-    "hooks": {
-      "commit-msg": "node ./scripts/gitVerify.js $HUSKY_GIT_PARAMS"
-    }
+    "hooks": {}
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
