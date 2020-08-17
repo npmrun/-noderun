@@ -1,6 +1,6 @@
 {
   "name": "@noderun/fullpage",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "@noderun/fullpage",
   "main": "index.js",
   "module": "dist/fullpage.esm.js",

@@ -1,6 +1,6 @@
 {
   "name": "@noderun/co-cli",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "@noderun/co-cli",
   "main": "index.js",
   "private": true,
