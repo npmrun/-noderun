@@ -1,6 +1,7 @@
 {
   "name": "@noderun/xbrowser",
   "version": "0.0.3",
+  "private": true,
   "description": "@noderun/xbrowser",
   "main": "index.js",
   "module": "dist/xbrowser.esm.js",

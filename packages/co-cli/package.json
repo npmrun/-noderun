@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "@noderun/co-cli",
   "main": "index.js",
+  "private": true,
   "bin": {
     "cok": "./dist/co-cli.cjs.js"
   },
