@@ -43,7 +43,7 @@ files.forEach(shortName => {
 
     const readmePath = path.join(packagesDir, shortName, `README.md`)
     if (args.force || !fs.existsSync(readmePath)) {
-        fs.writeFileSync(readmePath, `# ${name}`)
+        fs.writeFileSync(readmePath, `# ${name} \n > 自用型，有别的需要请直接联系前往我的[github](https://github.com/)`);
     }
 
     const npmIgnorePath = path.join(packagesDir, shortName, `.npmignore`)
